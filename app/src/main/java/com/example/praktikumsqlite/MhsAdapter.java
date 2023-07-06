@@ -49,7 +49,7 @@ public class MhsAdapter extends RecyclerView.Adapter <MhsAdapter.MhsVH> {
         }else{
             evenNumber = 00;
         }
-        holder.tvNamaVal.setText(evenNumber + ". " mhsList.get(position).getNama());
+        holder.tvNamaVal.setText(evenNumber + ". " + mhsList.get(position).getNama());
         holder.tvNimVal.setText(mhsList.get(position).getNim());
         holder.tvNoHpVal.setText(mhsList.get(position).getNoHp());
 
